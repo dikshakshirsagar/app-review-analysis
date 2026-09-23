@@ -112,12 +112,10 @@ Keyword-based rules were used to categorize reviews into themes such as:
 
 | File | Description |
 |---|---|
-| `app_review_analysis.py` | Python data cleaning, sentiment and theme analysis |
-| `App_Review_Analyzed.xlsx` | Cleaned data, KPI analysis, theme analysis and dashboard |
-| `GooglePlay_App_Data.csv` | Raw Google Play review dataset |
-| `App_Review_Analysis_BA_Report.docx` | Detailed Business Analyst project report |
-
-## 👩‍💻 Author
+| `Python Analysis/app_review_analysis.py` | Python data cleaning, sentiment and theme analysis |
+| `Excel Analysis/App_Review_Analyzed.xlsx` | Cleaned data, KPI analysis, theme analysis and dashboard |
+| `Raw Data/GooglePlay_App_Data.csv` | Raw Google Play review dataset |
+| `Report/App_Review_Analysis_BA_Report.docx` | Detailed Business Analyst project report |
 
 **Diksha Kshirsagar**
 
