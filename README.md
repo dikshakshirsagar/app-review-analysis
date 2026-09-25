@@ -1,122 +1,122 @@
-# App Review Analysis for Product Improvement
+# 📊 App Review Analysis for Product Improvement
 
-## 📌 Project Overview
+A Business Analyst portfolio project analyzing Google Play app reviews to understand user satisfaction, identify recurring feedback themes, and derive product improvement insights.
 
-This Business Analyst portfolio project analyzes 161 Google Play Store reviews to understand user satisfaction, identify recurring feedback themes, and highlight areas for further investigation.
+## 🎯 Project Objective
 
-The project uses Python for data cleaning, sentiment classification, and theme analysis, followed by Excel-based KPI analysis and dashboard reporting.
+The objective of this project was to analyze user reviews and answer:
 
-## 🎯 Business Objective
-
-The objective is to convert unstructured app reviews into actionable business insights by:
-
-- Measuring overall user satisfaction
-- Analyzing rating distribution
-- Classifying review sentiment
-- Identifying recurring feedback themes
-- Finding areas that may require product improvement
-- Providing data-driven recommendations
+- How satisfied are users with the app?
+- What is the overall sentiment of the reviews?
+- What product areas receive the most feedback?
+- Which areas show relatively lower ratings or negative feedback?
+- What product improvements can be considered based on the findings?
 
 ## 🛠️ Tools & Technologies
 
 - Python
 - Pandas
 - VADER Sentiment Analysis
+- SQL
 - Excel
-- Data Cleaning
-- Sentiment Analysis
-- Keyword-based Theme Classification
-- Data Visualization
-- Business Analysis
+- Power BI
 
-## 🔄 Analysis Workflow
+## 🔄 Project Workflow
 
-Raw Reviews  
-↓  
-Data Cleaning with Python  
-↓  
-Sentiment Classification  
-↓  
-Theme Classification  
-↓  
-KPI & Statistical Analysis  
-↓  
-Excel Dashboard  
-↓  
-Business Insights & Recommendations
+**Raw Data → Python → Sentiment & Theme Analysis → SQL → Excel → Power BI → Business Insights**
 
-## 📊 Key Results
+## 📁 Dataset
 
-| KPI | Result |
-|---|---:|
-| Total Reviews | 161 |
-| Average Rating | 4.42 / 5 |
-| Positive Reviews | 85.09% |
-| Negative Reviews | 7.45% |
-| Neutral Reviews | 7.45% |
-| 5-Star Reviews | 112 |
-| Login & Password Reviews | 38 |
-| Backup & Migration Reviews | 20 |
+The dataset contains **161 Google Play app reviews** with information such as:
 
-## 🔍 Key Insights
+- Review ID
+- Review description
+- Rating
+- Thumbs up
+- Review date
+- Developer response
+- App version
+- Language
+- Country
 
-- 85.09% of the analyzed reviews were classified as positive.
-- 112 out of 161 reviews received 5 stars.
-- The **Login & Password** theme had 38 reviews, with 21.05% classified as negative.
-- **Backup & Migration** had 20 reviews and the lowest average rating among the main identified themes at 3.65.
-- **Bugs & Performance** had a smaller volume of reviews, with 20% classified as negative.
-- **Usability** had an average rating of 4.86 across 21 reviews.
+## 📈 Key Findings
 
-## 💡 Business Recommendations
+- **161** reviews analyzed
+- **4.42/5** average rating
+- **85.09%** reviews classified as positive
+- **112** five-star reviews
+- **38** reviews classified under Login & Password
+- **20** reviews classified under Backup & Migration
+- Login & Password had **21.05% negative reviews**
+- Backup & Migration had an average rating of **3.65/5**
+- Usability had an average rating of **4.86/5**
 
-- Investigate recurring login and password-related complaints.
-- Analyze backup, restore, and device-transfer feedback.
-- Monitor bugs, crashes, errors, and update-related complaints.
-- Maintain usability features associated with positive user feedback.
-- Continue collecting a larger review sample for stronger analysis.
+## 📊 Power BI Dashboard
 
-## 🧪 Methodology
+The Power BI dashboard provides an overview of:
 
-### Sentiment Analysis
+- Review rating distribution
+- Sentiment distribution
+- Rating group distribution
+- Review themes
+- Key performance indicators
+- Rating-based filtering
 
-VADER Sentiment Analysis was used to classify reviews into:
+### Dashboard Preview
 
-- Positive
-- Negative
-- Neutral
+![App Review Analysis Dashboard](dashboard.png)
 
-### Theme Classification
+## 🐍 Python Analysis
 
-Keyword-based rules were used to categorize reviews into themes such as:
+Python and Pandas were used for:
+
+- Data cleaning
+- Data preparation
+- Sentiment analysis
+- Theme classification
+- Exploratory analysis
+
+VADER was used to classify reviews into Positive, Negative, and Neutral sentiment categories.
+
+## 🗄️ SQL Analysis
+
+SQL was used to:
+
+- Explore the review dataset
+- Analyze rating distribution
+- Identify critical reviews
+- Examine complaint areas
+- Calculate summary metrics
+
+## 📊 Excel Analysis
+
+Excel was used to create:
+
+- KPI summaries
+- Rating analysis
+- Sentiment analysis
+- Theme analysis
+- Business insights
+- Dashboard analysis
+
+## 💡 Business Insights
+
+The analysis highlighted areas that may require further product investigation, particularly:
 
 - Login & Password
 - Backup & Migration
-- Usability
 - Bugs & Performance
-- Security
-- Features & Customization
-- Advertising
-- Pricing & Free Plan
-- Other
 
-## ⚠️ Limitations
+At the same time, Usability showed strong user ratings and can be considered an area to maintain.
 
-- Sentiment classification was automated using VADER.
-- Theme classification was based on keyword rules.
-- The dataset contains 161 reviews.
-- Automated classifications were not manually validated for every review.
-- The analysis identifies associations and patterns; it does not establish causation.
-- Some generic reviews may fall under the "Other" category.
+## 📂 Project Files
 
-## 📁 Project Files
-
-| File | Description |
+| File / Folder | Description |
 |---|---|
-| `Python Analysis/app_review_analysis.py` | Python data cleaning, sentiment and theme analysis |
-| `Excel Analysis/App_Review_Analyzed.xlsx` | Cleaned data, KPI analysis, theme analysis and dashboard |
-| `Raw Data/GooglePlay_App_Data.csv` | Raw Google Play review dataset |
-| `Report/App_Review_Analysis_BA_Report.docx` | Detailed Business Analyst project report |
-
-**Diksha Kshirsagar**
-
-Business Analyst / Data Analytics Portfolio Project
+| `Raw Data/` | Original Google Play review dataset |
+| `Python Analysis/` | Python data cleaning and analysis |
+| `SQL Analysis/` | SQL queries and analysis |
+| `Excel Analysis/` | Excel analysis and summaries |
+| `Dashboard/` | Power BI dashboard |
+| `Report/` | Detailed Business Analyst report |
+| `dashboard.png` | Power BI dashboard preview |
