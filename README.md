@@ -120,3 +120,40 @@ At the same time, Usability showed strong user ratings and can be considered an 
 | `Dashboard/` | Power BI dashboard |
 | `Report/` | Detailed Business Analyst report |
 | `dashboard.png` | Power BI dashboard preview |
+
+## ▶️ How to Open / View the Project
+
+### 📊 Power BI Dashboard
+
+1. Open the `Dashboard/` folder.
+2. Download `App_Review_Analysis_Dashboard.pbix`.
+3. Open the `.pbix` file using **Microsoft Power BI Desktop**.
+4. Open the report page to view the dashboard.
+5. Use the **Rating filter** to interact with the analysis.
+
+### 📗 Excel Analysis
+
+1. Open the `Excel Analysis/` folder.
+2. Download `App_Review_Analyzed.xlsx`.
+3. Open the file using **Microsoft Excel**.
+4. Explore the following sheets:
+
+- Analyzed Data
+- KPI Summary
+- Rating Analysis
+- Sentiment Analysis
+- Theme Analysis
+- Business Insights
+- Dashboard
+
+### 🐍 Python Analysis
+
+1. Open the `Python Analysis/` folder.
+2. Download `app_review_analysis.py`.
+3. Download the dataset from the `Raw Data/` folder.
+4. Open the project in **VS Code** or another Python IDE.
+5. Install the required Python packages.
+6. Run:
+
+```bash
+python app_review_analysis.py
